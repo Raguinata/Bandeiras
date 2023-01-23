@@ -1,0 +1,30 @@
+<meta charset="UTF-8"/>
+
+<canvas width="600" height="414"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = ('#0d5eaf');
+
+    // Listras
+    pincel.fillRect (0, 0, 600, 46);
+    pincel.fillRect (0, 92, 600, 46);
+    pincel.fillRect (0, 184, 600, 46);
+    pincel.fillRect (0, 276, 600, 46);
+    pincel.fillRect (0, 368, 600, 46);
+
+    // Quadrado
+    pincel.fillRect (0, 0, 230, 230);
+
+    pincel.fillStyle = ('white');
+
+    // Cruz do Quadrado
+    pincel.fillRect (92, 0, 46, 230);
+    pincel.fillRect (0, 92, 230, 46);
+    
+    
+
+</script>
